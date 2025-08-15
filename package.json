@@ -1,0 +1,32 @@
+{
+  "name": "manisha-api-site",
+  "version": "1.0.0",
+  "description": "manisha-api-site - A collection of powerful APIs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "manisha",
+    "anime",
+    "movie",
+    "download"
+  ],
+  "author": "manisha",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "latest",
+    "cheerio": "latest",
+    "cheery": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "https-proxy-agent": "latest",
+    "path": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
